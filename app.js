@@ -20,7 +20,7 @@ function agregarAmigo() {
 });
 asignarTextoElemento("ul",listaAmigosStr)
     } else {
-        alert("Ingresa un Nombre, Porvavor");
+        alert("Ingresa un Nombre, Por Favor");
     }
     limpiarCaja();
     console.log(listaAmigos);
@@ -44,6 +44,7 @@ function limpiarCaja () {
     document.querySelector("#valorAmigo").value = "";
     
 }
+
 
 
 
